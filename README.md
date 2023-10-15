@@ -12,7 +12,7 @@
  
 -**Node RED:** The core tool for data collection and dashboard creation, using visual programming.
 
--**AWS (Amazon Web Services) Implementation:** Detailed instructions for ZIAM, EC2, and RDB setup for cloud deployment.
+-**AWS (Amazon Web Services) Implementation:** Detailed instructions for IAM, EC2, and RDB setup for cloud deployment.
  
 ## Documentation Contents
 **This documentation includes the following sections and resources:**
