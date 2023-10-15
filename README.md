@@ -1,5 +1,3 @@
-Welcome to the comprehensive documentation of the Leo Project!  This documentation is intended to provide users, developers, and contributors with the necessary information to understand, use, and contribute to the project effectively.
-
 ## Project Overview
 ### _About the Leo Project_
 - The Leo Project is a transformative initiative dedicated to bringing positive change to Laikipia, Kenya.  Their mission encompasses education, healthcare, clean water, and addressing climate challenges.  With a primary focus on water distribution, we aim to revolutionize how water resources are managed in the region.  WGU Hackathon Team 4 members have joined this initiative with the primary goal of providing development and implementation of data collection and analysis systems.
