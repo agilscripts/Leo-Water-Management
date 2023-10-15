@@ -1,0 +1,2692 @@
+[
+    {
+        "id": "63bf19e2b223cf70",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3426f7cef8e95b29",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Water",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a3bcb7c230d1d901",
+            "b4b0c4979e890220",
+            "2980439a6dc870b0",
+            "d85a086870cc5622",
+            "a9b5e6c24bce7bf7",
+            "21f67e873b157c4a",
+            "dda1c3a570adb20a",
+            "b83d71998aae5ec6",
+            "d805859c6605786f"
+        ],
+        "x": 74,
+        "y": -1,
+        "w": 772,
+        "h": 262
+    },
+    {
+        "id": "d8f53ef2312ba49a",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Inventory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "65e97eb35f1c0965",
+            "45308b5fab577103",
+            "cc3e77ac176bc2aa",
+            "d4ba187c7f7a6aae",
+            "8ed48ec294ebc9f2",
+            "a92f4b95ac88a4ab",
+            "8a97a12d7ae80703",
+            "184f6d8227538724",
+            "974978b687a69ca2",
+            "e91177e99755ee34",
+            "64e7448138777cac",
+            "ed3d3c2149ee604e"
+        ],
+        "x": 74,
+        "y": 279,
+        "w": 812,
+        "h": 462
+    },
+    {
+        "id": "af7dbe6407f57517",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Operational Metrics",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "88661eb5b3d20b98",
+            "7455d9fb890afb6b",
+            "85db1453467095b7",
+            "29c4606e1fbe1bcb"
+        ],
+        "x": 114,
+        "y": 1059,
+        "w": 472,
+        "h": 162
+    },
+    {
+        "id": "7ea9e2634a855b6e",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Water Quality",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "771ed069d0706785",
+            "0a663c2f64ce5867",
+            "e881251cfade01de",
+            "a7da098c981e2099",
+            "9038e7a27cdfc17f",
+            "49ecc8b0cd3adb45",
+            "9ad54e1fcc923a78",
+            "052207f57be9798b",
+            "50cc2e96fc409e57",
+            "9d7b591550cd40b1",
+            "9a12ac160dfc8be3",
+            "f8809b6f908ef128",
+            "78056be444babbfb",
+            "661f78f4175a6048",
+            "899960b0bfd49581",
+            "2216b31f6f9dc8e4",
+            "dcb9bce2291edc9e",
+            "b9fc18950c43687d",
+            "6ea1dce184f607a8"
+        ],
+        "x": 74,
+        "y": 1239,
+        "w": 732,
+        "h": 442
+    },
+    {
+        "id": "1cef11da95a878aa",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Customer Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9e85d21aa16f2f3b",
+            "44fcdd4274bd205d",
+            "fce37cf5388438a8",
+            "6233448bf6231eb4",
+            "5cd9763fd0898b73",
+            "a9a14f759a3a2299",
+            "2fdad90aa4780203",
+            "fce7c7869f99d12f",
+            "dbbb8de47ef35f8c",
+            "40719cd9a5d36957",
+            "ab1c4c063e473d6a",
+            "b46bd7516ea0006e",
+            "37509624e2788df5",
+            "e60c6e123705779e",
+            "b24b8f72e8d02071",
+            "d8440e5daba395d5",
+            "72e06167e7b75926",
+            "dc720d4a3ab72e2f",
+            "7ba0cee46282417e"
+        ],
+        "x": 54,
+        "y": 1759,
+        "w": 692,
+        "h": 442
+    },
+    {
+        "id": "d67f5ab333f3c614",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Financial Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "031359c28d5d0dd0",
+            "80837ac278b297fa",
+            "890665f2c5fab5c7",
+            "3c7d04ab1103191e",
+            "5a6f0b7c9f241bad",
+            "09cb14a904228f0d",
+            "23cc7dedbc10376c",
+            "f5bac0b44d0e995c",
+            "55a181c74a61848c",
+            "33f02dcabf4a1a6d",
+            "c4cd68f3b018a5b3",
+            "73ed90c53b919f09"
+        ],
+        "x": 74,
+        "y": 759,
+        "w": 832,
+        "h": 282
+    },
+    {
+        "id": "b0ac7de9308ae4fc",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Maintenance Record",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "63134b61f33e207d",
+            "76bcb913311a1b89",
+            "516ce552c22739ec",
+            "974feb96c87e5160",
+            "43e019698c43dc77"
+        ],
+        "x": 94,
+        "y": 2319,
+        "w": 612,
+        "h": 162
+    },
+    {
+        "id": "933d293f17c5c377",
+        "type": "group",
+        "z": "63bf19e2b223cf70",
+        "name": "Weather",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9a87d4724da822c9",
+            "3e7beb3161732d35",
+            "897cbce8f1d84855",
+            "7dc15f5b8ac5d12e",
+            "3cf945c2bf292fbb",
+            "38164dd5650de968",
+            "e1d04a95259b4ebc",
+            "7c6e7725d61dea1d",
+            "774e58b87f4fc06f",
+            "0a5e1dd7a27a44a1",
+            "c2281214b1795282"
+        ],
+        "x": 74,
+        "y": 2519,
+        "w": 1032,
+        "h": 282
+    },
+    {
+        "id": "a3bcb7c230d1d901",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "Water5",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water5",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "b4b0c4979e890220"
+            ]
+        ]
+    },
+    {
+        "id": "b4b0c4979e890220",
+        "type": "link out",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "link out 19",
+        "mode": "link",
+        "links": [
+            "2980439a6dc870b0"
+        ],
+        "x": 435,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2980439a6dc870b0",
+        "type": "link in",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "link in 12",
+        "links": [
+            "b4b0c4979e890220"
+        ],
+        "x": 575,
+        "y": 100,
+        "wires": [
+            [
+                "d85a086870cc5622",
+                "dda1c3a570adb20a",
+                "b83d71998aae5ec6"
+            ]
+        ]
+    },
+    {
+        "id": "d85a086870cc5622",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "",
+        "group": "a8a127be13de42be",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Bar Water chart",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 740,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9b5e6c24bce7bf7",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "Water6",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water6",
+        "payload": "70",
+        "payloadType": "num",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "b4b0c4979e890220"
+            ]
+        ]
+    },
+    {
+        "id": "21f67e873b157c4a",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "Water7",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water7",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "b4b0c4979e890220"
+            ]
+        ]
+    },
+    {
+        "id": "dda1c3a570adb20a",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "function 67",
+        "func": "msg.payload = [msg.payload.five, msg.payload.six, msg.payload.seven]\nmsg.topic = 'INSERT INTO WATERUSAGE(five, six, seven) VALUES(?,?,?);'\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65e97eb35f1c0965",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day1",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "45308b5fab577103",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day2",
+        "payload": "6",
+        "payloadType": "num",
+        "x": 170,
+        "y": 400,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "cc3e77ac176bc2aa",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day3",
+        "payload": "8",
+        "payloadType": "num",
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "d4ba187c7f7a6aae",
+        "type": "link out",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "link out 20",
+        "mode": "link",
+        "links": [
+            "8ed48ec294ebc9f2"
+        ],
+        "x": 445,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "8ed48ec294ebc9f2",
+        "type": "link in",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "link in 13",
+        "links": [
+            "d4ba187c7f7a6aae"
+        ],
+        "x": 545,
+        "y": 420,
+        "wires": [
+            [
+                "8a97a12d7ae80703",
+                "a92f4b95ac88a4ab"
+            ]
+        ]
+    },
+    {
+        "id": "a92f4b95ac88a4ab",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "",
+        "group": "4fa53f2c0950803b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Bar Inventory chart",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "15",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#000000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 770,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b83d71998aae5ec6",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "",
+        "group": "a8a127be13de42be",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Water Pie chart",
+        "chartType": "pie",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 740,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a97a12d7ae80703",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "function 68",
+        "func": "msg.payload = [msg.payload.day1, msg.payload.day2, msg.payload.day3, msg.payload.day4, msg.payload.day5, msg.payload.day6, msg.payload.day7] \nmsg.topic = 'INSERT INTO InventoryManagement(day1, day2, day3, day4, day5, day6, day7) VALUES(?,?,?,?,?,?,?);'\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "184f6d8227538724",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day4",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day4",
+        "payload": "6",
+        "payloadType": "num",
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "974978b687a69ca2",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day5",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day5",
+        "payload": "6",
+        "payloadType": "num",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "e91177e99755ee34",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day6",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day6",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "64e7448138777cac",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Day7",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "day7",
+        "payload": "6",
+        "payloadType": "num",
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "d4ba187c7f7a6aae"
+            ]
+        ]
+    },
+    {
+        "id": "88661eb5b3d20b98",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "af7dbe6407f57517",
+        "name": "User 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Operational Hours",
+        "payload": "80",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1140,
+        "wires": [
+            [
+                "85db1453467095b7"
+            ]
+        ]
+    },
+    {
+        "id": "7455d9fb890afb6b",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "af7dbe6407f57517",
+        "name": "User 2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Downtime",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1180,
+        "wires": [
+            [
+                "85db1453467095b7"
+            ]
+        ]
+    },
+    {
+        "id": "85db1453467095b7",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "af7dbe6407f57517",
+        "name": "",
+        "group": "93fe5a41bce9f3cc",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "label": "Operation Avaliablitiy",
+        "chartType": "pie",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1eb33c",
+            "#dc0909",
+            "#ec1818",
+            "#a02c2c",
+            "#d40202",
+            "#d62728",
+            "#c60906",
+            "#c61306",
+            "#e10e0e"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 460,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29c4606e1fbe1bcb",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "af7dbe6407f57517",
+        "name": "Operational Metrics",
+        "info": "",
+        "x": 230,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "771ed069d0706785",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "pH",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "pH",
+        "payload": "8",
+        "payloadType": "num",
+        "x": 250,
+        "y": 1320,
+        "wires": [
+            [
+                "a7da098c981e2099",
+                "9038e7a27cdfc17f"
+            ]
+        ]
+    },
+    {
+        "id": "0a663c2f64ce5867",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Turbidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Turbidity",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 240,
+        "y": 1360,
+        "wires": [
+            [
+                "a7da098c981e2099",
+                "9ad54e1fcc923a78"
+            ]
+        ]
+    },
+    {
+        "id": "e881251cfade01de",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Major Contaminants",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Major Contaminants",
+        "payload": "70",
+        "payloadType": "num",
+        "x": 210,
+        "y": 1400,
+        "wires": [
+            [
+                "a7da098c981e2099",
+                "052207f57be9798b"
+            ]
+        ]
+    },
+    {
+        "id": "a7da098c981e2099",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "",
+        "group": "132c3c58705c6c2d",
+        "order": 3,
+        "width": 6,
+        "height": "6",
+        "label": "Water Quality Chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9038e7a27cdfc17f",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "function 69",
+        "func": "if(msg.payload >= 7)\n{\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1340,
+        "wires": [
+            [
+                "49ecc8b0cd3adb45"
+            ]
+        ]
+    },
+    {
+        "id": "49ecc8b0cd3adb45",
+        "type": "ui_toast",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 690,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "9ad54e1fcc923a78",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "function 70",
+        "func": "if(msg.payload >= 40)\n{\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1380,
+        "wires": [
+            [
+                "49ecc8b0cd3adb45"
+            ]
+        ]
+    },
+    {
+        "id": "052207f57be9798b",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "function 71",
+        "func": "if(msg.payload >= 60)\n{\n    return msg;\n}\nelse{\n    console.log(\"Overflow\")\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1420,
+        "wires": [
+            [
+                "49ecc8b0cd3adb45"
+            ]
+        ]
+    },
+    {
+        "id": "50cc2e96fc409e57",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Water Quality",
+        "info": "",
+        "x": 250,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "9e85d21aa16f2f3b",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Name",
+        "payload": "George",
+        "payloadType": "str",
+        "x": 170,
+        "y": 1840,
+        "wires": [
+            [
+                "ab1c4c063e473d6a"
+            ]
+        ]
+    },
+    {
+        "id": "44fcdd4274bd205d",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water Used",
+        "payload": "60",
+        "payloadType": "num",
+        "x": 180,
+        "y": 1920,
+        "wires": [
+            [
+                "40719cd9a5d36957"
+            ]
+        ]
+    },
+    {
+        "id": "fce37cf5388438a8",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "Customer Data",
+        "info": "",
+        "x": 180,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "6233448bf6231eb4",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Family Size",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 170,
+        "y": 2000,
+        "wires": [
+            [
+                "d8440e5daba395d5"
+            ]
+        ]
+    },
+    {
+        "id": "5cd9763fd0898b73",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Feedback",
+        "payload": "Water was delicious.",
+        "payloadType": "str",
+        "x": 230,
+        "y": 2120,
+        "wires": [
+            [
+                "b46bd7516ea0006e"
+            ]
+        ]
+    },
+    {
+        "id": "a9a14f759a3a2299",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Contact Info",
+        "payload": "George@gmail",
+        "payloadType": "str",
+        "x": 220,
+        "y": 2080,
+        "wires": [
+            [
+                "e60c6e123705779e"
+            ]
+        ]
+    },
+    {
+        "id": "2fdad90aa4780203",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Inital Date Setup",
+        "payload": "10/23",
+        "payloadType": "str",
+        "x": 200,
+        "y": 1880,
+        "wires": [
+            [
+                "37509624e2788df5"
+            ]
+        ]
+    },
+    {
+        "id": "fce7c7869f99d12f",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water usage left",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 190,
+        "y": 1960,
+        "wires": [
+            [
+                "40719cd9a5d36957"
+            ]
+        ]
+    },
+    {
+        "id": "dbbb8de47ef35f8c",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Family Unit",
+        "payload": "House",
+        "payloadType": "str",
+        "x": 190,
+        "y": 2040,
+        "wires": [
+            [
+                "b24b8f72e8d02071"
+            ]
+        ]
+    },
+    {
+        "id": "40719cd9a5d36957",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "group": "a8a127be13de42be",
+        "order": 3,
+        "width": "4",
+        "height": "4",
+        "label": "Water Usage",
+        "chartType": "pie",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 570,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab1c4c063e473d6a",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "b46bd7516ea0006e",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "37509624e2788df5",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "e60c6e123705779e",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "b24b8f72e8d02071",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 570,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "d8440e5daba395d5",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "group": "a8a127be13de42be",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 570,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "72e06167e7b75926",
+        "type": "ui_button",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "group": "a8a127be13de42be",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Request more water",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 2160,
+        "wires": [
+            [
+                "dc720d4a3ab72e2f"
+            ]
+        ]
+    },
+    {
+        "id": "dc720d4a3ab72e2f",
+        "type": "trigger",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "name": "",
+        "op1": "George Needs More Water",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 400,
+        "y": 2160,
+        "wires": [
+            [
+                "7ba0cee46282417e"
+            ]
+        ]
+    },
+    {
+        "id": "7ba0cee46282417e",
+        "type": "ui_toast",
+        "z": "63bf19e2b223cf70",
+        "g": "1cef11da95a878aa",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "George Needs Water",
+        "x": 620,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "031359c28d5d0dd0",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Revenue User 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "User1",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 200,
+        "y": 840,
+        "wires": [
+            [
+                "3c7d04ab1103191e"
+            ]
+        ]
+    },
+    {
+        "id": "80837ac278b297fa",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Revenue User 2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "User2",
+        "payload": "70",
+        "payloadType": "num",
+        "x": 200,
+        "y": 880,
+        "wires": [
+            [
+                "3c7d04ab1103191e"
+            ]
+        ]
+    },
+    {
+        "id": "890665f2c5fab5c7",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Revenue User 3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "User3",
+        "payload": "60",
+        "payloadType": "num",
+        "x": 200,
+        "y": 920,
+        "wires": [
+            [
+                "3c7d04ab1103191e"
+            ]
+        ]
+    },
+    {
+        "id": "3c7d04ab1103191e",
+        "type": "link out",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "link out 23",
+        "mode": "link",
+        "links": [
+            "5a6f0b7c9f241bad"
+        ],
+        "x": 355,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "5a6f0b7c9f241bad",
+        "type": "link in",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "link in 16",
+        "links": [
+            "3c7d04ab1103191e"
+        ],
+        "x": 425,
+        "y": 880,
+        "wires": [
+            [
+                "09cb14a904228f0d",
+                "33f02dcabf4a1a6d",
+                "c4cd68f3b018a5b3"
+            ]
+        ]
+    },
+    {
+        "id": "09cb14a904228f0d",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "",
+        "group": "cc1090606830891f",
+        "order": 4,
+        "width": 6,
+        "height": "6",
+        "label": "Financial Data Pie",
+        "chartType": "pie",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23cc7dedbc10376c",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Financial Data",
+        "info": "",
+        "x": 190,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f5bac0b44d0e995c",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Revenue User 4",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "User4",
+        "payload": "60",
+        "payloadType": "num",
+        "x": 200,
+        "y": 960,
+        "wires": [
+            [
+                "3c7d04ab1103191e"
+            ]
+        ]
+    },
+    {
+        "id": "55a181c74a61848c",
+        "type": "ui_table",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "group": "93fe5a41bce9f3cc",
+        "name": "Customer Records",
+        "order": 10,
+        "width": "0",
+        "height": "0",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 770,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "9d7b591550cd40b1",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Chlorine Levels",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Chlorine Levels",
+        "payload": ".9",
+        "payloadType": "num",
+        "x": 220,
+        "y": 1440,
+        "wires": [
+            [
+                "a7da098c981e2099"
+            ]
+        ]
+    },
+    {
+        "id": "9a12ac160dfc8be3",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Microbial Content",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Microbial Content",
+        "payload": "80",
+        "payloadType": "num",
+        "x": 220,
+        "y": 1480,
+        "wires": [
+            [
+                "2216b31f6f9dc8e4",
+                "b9fc18950c43687d"
+            ]
+        ]
+    },
+    {
+        "id": "f8809b6f908ef128",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Lead Levels",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Lead Levels",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1520,
+        "wires": [
+            [
+                "dcb9bce2291edc9e",
+                "b9fc18950c43687d"
+            ]
+        ]
+    },
+    {
+        "id": "78056be444babbfb",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Total Dissolved Solids",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Total Dissolved Solids",
+        "payload": "100",
+        "payloadType": "num",
+        "x": 260,
+        "y": 1560,
+        "wires": [
+            [
+                "b9fc18950c43687d"
+            ]
+        ]
+    },
+    {
+        "id": "661f78f4175a6048",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Water level Hardness",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water level Hardness",
+        "payload": ".4",
+        "payloadType": "num",
+        "x": 260,
+        "y": 1600,
+        "wires": [
+            [
+                "b9fc18950c43687d"
+            ]
+        ]
+    },
+    {
+        "id": "899960b0bfd49581",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "Water Source",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Water Source",
+        "payload": "Lake",
+        "payloadType": "str",
+        "x": 230,
+        "y": 1640,
+        "wires": [
+            [
+                "6ea1dce184f607a8"
+            ]
+        ]
+    },
+    {
+        "id": "2216b31f6f9dc8e4",
+        "type": "ui_gauge",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "",
+        "group": "132c3c58705c6c2d",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Microbial Content",
+        "label": "units",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "dcb9bce2291edc9e",
+        "type": "ui_gauge",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "",
+        "group": "132c3c58705c6c2d",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Lead Levels",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "10",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "b9fc18950c43687d",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "name": "",
+        "group": "132c3c58705c6c2d",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "label": "Other",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ea1dce184f607a8",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "7ea9e2634a855b6e",
+        "group": "132c3c58705c6c2d",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Water Source",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "63134b61f33e207d",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "b0ac7de9308ae4fc",
+        "name": "function 72",
+        "func": "msg.payload = \n[\n    {\n        \"Date\": \"10th November, 2023\",\n        \"Maintenance\":msg.payload,\n        \"Description\": \"Under Construction\"\n        \n    },\n    {\n        \"Date\": \"11th November, 2023\",\n        \"Maintenance\": \"Unscheduled\",\n        \"Description\": \"Working\"\n\n    }\n]\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2420,
+        "wires": [
+            [
+                "43e019698c43dc77"
+            ]
+        ]
+    },
+    {
+        "id": "76bcb913311a1b89",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "b0ac7de9308ae4fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Maintenance",
+        "payload": "Scheduled",
+        "payloadType": "str",
+        "x": 260,
+        "y": 2400,
+        "wires": [
+            [
+                "63134b61f33e207d"
+            ]
+        ]
+    },
+    {
+        "id": "516ce552c22739ec",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "b0ac7de9308ae4fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Maintenance",
+        "payload": "UnScheduled",
+        "payloadType": "str",
+        "x": 250,
+        "y": 2440,
+        "wires": [
+            [
+                "63134b61f33e207d"
+            ]
+        ]
+    },
+    {
+        "id": "974feb96c87e5160",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "b0ac7de9308ae4fc",
+        "name": "Maintenance Record",
+        "info": "",
+        "x": 250,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "43e019698c43dc77",
+        "type": "ui_table",
+        "z": "63bf19e2b223cf70",
+        "g": "b0ac7de9308ae4fc",
+        "group": "93fe5a41bce9f3cc",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 630,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "9a87d4724da822c9",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "Weather Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "temperature",
+        "payload": "34",
+        "payloadType": "num",
+        "x": 220,
+        "y": 2700,
+        "wires": [
+            [
+                "7dc15f5b8ac5d12e",
+                "3cf945c2bf292fbb"
+            ]
+        ]
+    },
+    {
+        "id": "3e7beb3161732d35",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "Weather Status",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "status",
+        "payload": "Cloudy",
+        "payloadType": "str",
+        "x": 240,
+        "y": 2740,
+        "wires": [
+            [
+                "38164dd5650de968",
+                "7dc15f5b8ac5d12e"
+            ]
+        ]
+    },
+    {
+        "id": "897cbce8f1d84855",
+        "type": "openweathermap",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Los Angeles",
+        "country": "US",
+        "language": "en",
+        "x": 390,
+        "y": 2640,
+        "wires": [
+            [
+                "e1d04a95259b4ebc",
+                "774e58b87f4fc06f"
+            ]
+        ]
+    },
+    {
+        "id": "7dc15f5b8ac5d12e",
+        "type": "ui_chart",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "",
+        "group": "83c4472d92fa3c2c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 530,
+        "y": 2680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cf945c2bf292fbb",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "group": "83c4472d92fa3c2c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 580,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "38164dd5650de968",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "group": "83c4472d92fa3c2c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 560,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "e1d04a95259b4ebc",
+        "type": "debug",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "debug 97",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "7c6e7725d61dea1d",
+        "type": "inject",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 2640,
+        "wires": [
+            [
+                "897cbce8f1d84855"
+            ]
+        ]
+    },
+    {
+        "id": "774e58b87f4fc06f",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "function 73",
+        "func": "msg.payload = msg.payload.description;\nmsg.topic = \"Description\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 2640,
+        "wires": [
+            [
+                "0a5e1dd7a27a44a1"
+            ]
+        ]
+    },
+    {
+        "id": "0a5e1dd7a27a44a1",
+        "type": "ui_toast",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 990,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "33f02dcabf4a1a6d",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Financial data table function",
+        "func": "msg.payload = \n[\n    {\n        \"Name\": \"Terry\",\n        \"Usage left\": \"50\",\n        \"Family Size\": \"5\"\n        \n        \n    },\n    {\n        \"Name\": \"George\",\n        \"Usage left\": \"60\",\n        \"Family Size\": \"4\"\n        \n\n    }\n]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 940,
+        "wires": [
+            [
+                "55a181c74a61848c"
+            ]
+        ]
+    },
+    {
+        "id": "c2281214b1795282",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "933d293f17c5c377",
+        "name": "Weather",
+        "info": "",
+        "x": 220,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "d805859c6605786f",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "3426f7cef8e95b29",
+        "name": "Water",
+        "info": "",
+        "x": 190,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ed3d3c2149ee604e",
+        "type": "comment",
+        "z": "63bf19e2b223cf70",
+        "g": "d8f53ef2312ba49a",
+        "name": "Inventory",
+        "info": "",
+        "x": 160,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c4cd68f3b018a5b3",
+        "type": "function",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "name": "Mtungi to Shilling conversion rate",
+        "func": "msg = msg.payload * 2.5;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 800,
+        "wires": [
+            [
+                "73ed90c53b919f09"
+            ]
+        ]
+    },
+    {
+        "id": "73ed90c53b919f09",
+        "type": "ui_text",
+        "z": "63bf19e2b223cf70",
+        "g": "d67f5ab333f3c614",
+        "group": "a8a127be13de42be",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "a8a127be13de42be",
+        "type": "ui_group",
+        "name": "Water Usage",
+        "tab": "c277ec2df91465f0",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4fa53f2c0950803b",
+        "type": "ui_group",
+        "name": "Inventory Management",
+        "tab": "12a2bae39e1e1561",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93fe5a41bce9f3cc",
+        "type": "ui_group",
+        "name": "Operational Metrics",
+        "tab": "12a2bae39e1e1561",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "132c3c58705c6c2d",
+        "type": "ui_group",
+        "name": "Water Quality",
+        "tab": "c277ec2df91465f0",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc1090606830891f",
+        "type": "ui_group",
+        "name": "Financial Data",
+        "tab": "12a2bae39e1e1561",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83c4472d92fa3c2c",
+        "type": "ui_group",
+        "name": "Weather",
+        "tab": "c277ec2df91465f0",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c277ec2df91465f0",
+        "type": "ui_tab",
+        "name": "Water Analysis",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "12a2bae39e1e1561",
+        "type": "ui_tab",
+        "name": "Inventory Management",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
