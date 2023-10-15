@@ -1,4 +1,4 @@
-Welcome to the comprehensive documentation fo the Leo Project!  This documentation is intended to provide users, developers, and contributors with the necessary information to understand, use, and contribute to the project effectively.
+Welcome to the comprehensive documentation of the Leo Project!  This documentation is intended to provide users, developers, and contributors with the necessary information to understand, use, and contribute to the project effectively.
 
 ## Project Overview
 ### _About the Leo Project_
